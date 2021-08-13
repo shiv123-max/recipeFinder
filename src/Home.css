@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.home {
+  height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* filter: brightness(100%); */
+  background-image: url("https://images.hdqwalls.com/download/food-rings-sweet-1366x768.jpg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 45vh; */
+}
+
+.home__header{
+    font-size: 60px;
+    /* text-transform: uppercase; */
+    background-color: transparent;
+    color: #264348;
+    font-family: 'Satisfy', cursive;
+    z-index: -1;
+    margin-bottom: 20px;
+}
+
+
+.home__link {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.5px solid;
+  border-radius: 10px;
+  background-color: #5aa1c2;
+  text-align: center;
+  color: white;
+  height: 80px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  width: 190px;
+}
+
+.home__link:hover {
+  background-color: #222222;
+  color: #5aa1c2;
+  border: 2px solid #5aa1c2;
+}

@@ -1,0 +1,166 @@
+
+
+p {
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.recipe__procedure {
+  font-style: italic;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  letter-spacing: 1.5px;
+}
+
+.recipe__button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: #de8200;
+  color: white;
+  font-weight: bold;
+}
+
+.recipe__button:hover {
+  background-color: #222222;
+  color: #de8200;
+  border: 2px solid #de8200;
+  cursor: pointer;
+}
+
+
+.recipe__ingred {
+  text-transform: capitalize;
+  /* margin: 5px; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 26px;
+  letter-spacing: 0px;
+  margin-left: 30px;
+}
+
+.recipe__step {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+.recipeInfo__image{
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 800px;
+  height: 550px;
+  /* object-fit: cover; */
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.5s all ease-in-out;
+}
+
+.recipeInfo__image:hover {
+  transform: scale(1.05);
+  border: 2.5px solid #de8200;
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
+      rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+  cursor: pointer;
+}
+
+.recipeInfo__title {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 25px;
+  letter-spacing: 2.5px;
+  margin-left: 30px;
+  background: transparent;
+}
+
+.recipeInfo__ingredImage{
+  /* float: left; */
+    width:  300px;
+    height: 300px;
+    /* object-fit: cover; */
+    margin-left: 30px;
+    border-radius:50%;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.5s all ease-in-out;
+}
+
+.recipeInfo__ingredImage:hover{
+  transform: scale(1.02);
+  /* border: 1px solid #de8200; */
+  /* outline: none; */
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
+      rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+  cursor: pointer;
+}
+
+.recipeInfo__ingredients {
+  margin-top: 0px;
+  display: flex;
+  /* margin-left: 100px;
+  /* margin-right: auto; */
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.recipeInfo_ingredList {
+  padding: 10px;
+  margin-left: 55px;
+  /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
+  transition: 0.35s all ease-in-out;
+  margin-right: 40px;
+}
+
+
+.recipeInfo__button {
+  width: fit-content;
+  padding: 8px;
+  /* border: none; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 70px;
+  background-color: #de8200;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 220px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.recipeInfo__button:hover{
+  background-color:#222222 ;
+  border: 2px solid #de8200;
+  cursor: pointer;
+  color: #de8200;
+  padding: 2px;
+}
+
+.recipeInfo__button > a{
+  text-decoration: none;
+  background: transparent;
+  font-size: 26px;
+  padding: 2px; 
+  margin-right: 10px;
+}
+
+.recipeInfo__yt {
+  background: transparent;
+ transform: scale(1.35);
+}
